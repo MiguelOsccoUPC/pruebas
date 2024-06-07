@@ -6,6 +6,7 @@ public class Ejecutora {
         triangulo tri = new triangulo(4,5,6);
         System.out.println(rec.calculararea());
         System.out.println(tri.calculararea());
+        System.out.println(tri.calculararea());
 
 
 
