@@ -14,6 +14,6 @@ public class triangulo implements poligono{
     @Override
     public double calculararea() {
         double p=((lado1+lado2+lado3)/2.0);
-        return p*(p-lado1);
+        return p*(p-lado1-lado2);
     }
 }
